@@ -1,5 +1,5 @@
 //your JS code here. If required.
-const submitBtn = document.querySelector("#submit");
+const submitBtn = document.getElementById("submit");
 
 var bookList = document.getElementById("book-list");
 
