@@ -17,13 +17,13 @@ function newRow() {
     <td>${title}<td>
     <td>${author}<td>
     <td>${isbn}<td>
-    <td><button type="submit" id="delete">Delete</button>`;
+    <td><button type="submit" class="delete">Delete</button>`;
 
     bookList.appendChild(row);
     clear();
 
     //remove data from table
-    var removeBtn = row.querySelector("#delete");
+    var removeBtn = row.querySelector(".delete");
 
     removeBtn.addEventListener("click" , () => {
         bookList.removeChild(row);
