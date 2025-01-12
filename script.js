@@ -14,10 +14,10 @@ function newRow() {
 
     const row = document.createElement("tr");
      row.innerHTML = `
-    <td>${title}<td>
-    <td>${author}<td>
-    <td>${isbn}<td>
-    <td><button type="submit" class="delete">Delete</button>`;
+    <td>${title}</td>
+    <td>${author}</td>
+    <td>${isbn}</td>
+    <td><button type="submit" class="delete">Delete</button></td>`;
 
     bookList.appendChild(row);
     clear();
